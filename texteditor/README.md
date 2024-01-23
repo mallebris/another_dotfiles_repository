@@ -2,6 +2,7 @@
 
 <!--toc:start-->
 - [NeoVIM](#neovim)
+  - [Instal action](#instal-action)
   - [Package manager](#package-manager)
   - [Directory tree](#directory-tree)
   - [Code highlight](#code-highlight)
@@ -27,6 +28,7 @@ cd neovim
 make CMAKE_BUILD_TYPE=Release
 sudo make install
 )
+cp /usr/local/bin/nvim ~/.local/bin/
 ```
 
 ## Package manager
